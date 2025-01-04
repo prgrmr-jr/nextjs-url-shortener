@@ -64,7 +64,7 @@ export default function URLShortener() {
         <header className="flex justify-between items-center mb-6">
           <h1 className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>URL Shortener</h1>
           <div className="flex items-center space-x-2">
-            <a href="https://github.com/prgrmr-jr/url-shortener-web.git" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/prgrmr-jr/nextjs-url-shortener.git" target="_blank" rel="noopener noreferrer">
               <Github className={`h-6 w-6 ${isDarkMode ? 'text-white' : 'text-black'}`} />
             </a>
             <Button variant="ghost" size="icon" onClick={toggleDarkMode}>
